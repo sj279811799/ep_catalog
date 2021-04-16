@@ -1,0 +1,16 @@
+{
+  "parts": [
+    {
+      "name": "ep_catalog",
+      "client_hooks": {
+        "aceInitialized": "ep_catalog/static/js/clientHooks",
+        "aceAttribsToClasses": "ep_catalog/static/js/clientHooks",
+        "aceEditorCSS": "ep_catalog/static/js/clientHooks"
+      },
+      "hooks":{
+        "padLoad": "ep_catalog/index",
+        "padUpdate": "ep_catalog/index"
+      }
+    }
+  ]
+}

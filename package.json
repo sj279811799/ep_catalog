@@ -1,0 +1,56 @@
+{
+  "name": "ep_catalog",
+  "description": "Add catalog to etherpad",
+  "version": "0.0.1",
+  "author": {
+    "name": "yqcloud",
+    "email": "yqcloud@hand-china.com",
+    "url": "https://github.com/yqcloud"
+  },
+  "contributors": [],
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yqcloud/ep_catalog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yqcloud/ep_catalog/issues"
+  },
+  "homepage": "https://github.com/yqcloud/ep_catalog",
+  "_id": "ep_catalog@0.0.1",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "maintainers": [
+    {
+      "name": "Song",
+      "email": "jian.song03@hand-china.com"
+    }
+  ],
+  "directories": {},
+  "readme": "ERROR: No README data found!",
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-etherpad": "^1.0.24",
+    "eslint-plugin-mocha": "^8.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-you-dont-need-lodash-underscore": "^6.10.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": "etherpad/plugin"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://yqcloud.com/"
+  },
+  "peerDependencies": {
+    "ep_etherpad-lite": ">=1.8.6"
+  },
+  "engines": {
+    "node": "^10.17.0 || >=11.14.0"
+  }
+}

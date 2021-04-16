@@ -1,0 +1,26 @@
+.yq-catelogs {
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  padding: 10px 0;
+}
+
+.yq-catelogs-ul {
+  list-style: none;
+}
+
+.yq-catelogs-li {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 6px;
+  cursor: pointer;
+  height: 22px;
+  line-height: 22px;
+}
+
+.yq-catelogs-li .H1 {
+  font-weight: 500;
+}
